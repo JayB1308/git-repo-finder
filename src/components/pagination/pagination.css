@@ -1,0 +1,17 @@
+.pagination-container{
+    display: flex;
+    color:antiquewhite;
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+    margin-left: -2rem;
+    padding: 0.5rem 6rem;
+    margin-bottom: 3rem;
+}
+.pagination-item{
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}

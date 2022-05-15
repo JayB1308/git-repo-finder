@@ -1,0 +1,25 @@
+.name-container{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background:rgba(255,255,255,0.4);
+    backdrop-filter: blur(15px);
+}
+
+.name-container label{
+    font-size: 1.5rem;
+}
+.name-container input{
+    margin-left: 0.5rem;
+    padding: 10px 20px;
+    border: none;
+    background-color: antiquewhite;
+}
+.name-container button{
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
